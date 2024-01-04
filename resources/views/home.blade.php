@@ -5,13 +5,15 @@
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <link rel="stylesheet" href="{{asset ('css/global.css')}}" />
     <link rel="stylesheet" href="{{asset('css/index.css')}}" />
+    <link rel="stylesheet" href="{{asset('css/new.css')}}" />
+    @vite('public/css/app.css')
 
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
     />
   </head>
-  <body>
+  
     <div class="home">
       <b class="im-arviansyaaaah">
         <p class="im">I’m</p>
@@ -180,17 +182,17 @@
           <div class="ellipse-div"></div>
         </div>
       </div>
-      <img class="rectangle-icon" alt="" src="{{ asset('rectange-8.svg') }}" />
+      <!-- <img class="rectangle-icon" alt="" src="{{ asset('rectange-8.svg') }}" />
 
       <img class="home-child24" alt="" src="  class="rectangle-icon" alt="" src="{{ asset('rectange9.svg') }}" />
 
 
       <img class="home-child25" alt="" src="  class="rectangle-icon" alt="" src="{{ asset('rectange9.svg') }}" />
 
-      <img class="home-child26" alt="" src="  class="rectangle-icon" alt="" src="{{ asset('rectange9.svg') }}" />
-      <img class="home-child28" alt="" src="./public/rectangle-9.svg" />
+      <img class="home-child26" alt="" src="  class="rectangle-icon" alt="" src="{{ asset('rectange9.svg') }}" /> -->
+      <!-- <img class="home-child28" alt="" src="./public/rectangle-9.svg" /> -->
 
-      <img class="home-child28" alt="" src="  class="rectangle-icon" alt="" src="{{ asset('rectange9.svg') }}" />
+      <!-- <img class="home-child28" alt="" src="  class="rectangle-icon" alt="" src="{{ asset('rectange9.svg') }}" /> -->
 
 
       <img
